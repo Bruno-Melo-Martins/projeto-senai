@@ -1,0 +1,12 @@
+.cabecalho{
+    height: 100px;
+    background-color: blueviolet;
+    margin: -8px;
+}
+#logo{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    font-size: xx-large;
+    padding: 5px;
+}
