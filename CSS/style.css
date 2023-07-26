@@ -1,9 +1,18 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+  }
 *{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 /*Cabeçalho*/
 .cabecalho{
-    background-color: blueviolet;
+    background-color: #333;
     height: 150px;
     margin: -8px;
 }
@@ -29,5 +38,5 @@
     color: white;
 }
 .op:hover{
-    background-color: rgba(2, 24, 39, 1);
+    background-color: black;
 }
