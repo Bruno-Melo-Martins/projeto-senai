@@ -7,10 +7,7 @@ body {
     padding: 0;
     background-color: #f7f7f7;
   }
-*{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-/*Cabeçalho*/
+
 /*Cabeçalho*/
 .cabecalho{
     background-color:rgba(93, 22, 235, 1);
@@ -85,3 +82,44 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
+
+  /*Formulario*/
+
+ .title h1{
+    text-align: center;
+    background-color: rgb(214, 214, 214);
+ }
+ 
+.formulario{
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    font-size: larger;
+}
+
+.barras{
+    width: 400px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.criar{
+    width: 400px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    background-color: rgb(164, 88, 235);
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.criar:hover{
+    background-color: rgb(119, 64, 170);
+}
+
+.center{
+    text-align: center;
+}
