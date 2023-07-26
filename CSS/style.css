@@ -1,0 +1,33 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*Cabeçalho*/
+.cabecalho{
+    background-color: blueviolet;
+    height: 150px;
+    margin: -8px;
+}
+#logo{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+#imglogo{
+    height: 100px;
+    border-radius: 100%;
+}
+.menu{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    position: relative;
+    top: 10px;
+}
+.op{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+.op:hover{
+    background-color: rgba(2, 24, 39, 1);
+}
