@@ -10,9 +10,8 @@ body {
   
 /*Cabeçalho*/
 .cabecalho{
-  background-color: #333;
+  background-color:rgba(138, 88, 240, 1);
   height: 150px;
-  margin: -8px;
 }
 #logo{
   width: fit-content;
@@ -36,7 +35,10 @@ body {
   color: white;
 }
 .op:hover{
-  background-color: black;
+  color: rgba(95, 27, 230, 1);
+  background-color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
   .main {

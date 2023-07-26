@@ -11,32 +11,35 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 /*Cabeçalho*/
+/*Cabeçalho*/
 .cabecalho{
-    background-color: #333;
+    background-color:rgba(138, 88, 240, 1);
     height: 150px;
-    margin: -8px;
-}
-#logo{
+  }
+  #logo{
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
-}
-#imglogo{
+  }
+  #imglogo{
     height: 100px;
     border-radius: 100%;
-}
-.menu{
+  }
+  .menu{
     margin-left: auto;
     margin-right: auto;
     width: fit-content;
     position: relative;
     top: 10px;
-}
-.op{
+  }
+  .op{
     text-decoration: none;
     padding: 10px;
     color: white;
-}
-.op:hover{
-    background-color: black;
-}
+  }
+  .op:hover{
+    color: rgba(95, 27, 230, 1);
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
