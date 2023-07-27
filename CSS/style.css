@@ -46,7 +46,7 @@ body {
 
   #parallax {
     background: url(../imagens/computador2.jpeg) no-repeat;
-    height: 1041px;
+    height: 700px;
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -56,6 +56,19 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+  .legenda{
+    position: relative;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+  }
+  .legenda span.titulo {
+    background-color: white;
+    padding: 18px;
+    font-size: 25px;
   }
 
   .header {
