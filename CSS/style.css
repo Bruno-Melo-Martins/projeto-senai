@@ -80,6 +80,9 @@ body {
   .header {
     background-color: rgb(224, 224, 224);
     height: 130px;
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
   }
  
   #introducao h1{
@@ -93,7 +96,36 @@ body {
 
   /*Cursos oferecidos*/
   .tabela{
+    margin-top: 20px;
     width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  th{
+    color: #f7f7f7;
+    background-color: #333;
+    font-size: 18px;
+  }
+  .img, .desc, .carga, .custo{
+    padding: 10px;
+  }
+  .img img{
+    height: 210px;
+  }
+  .carga, .custo{
+    text-align: center;
+    width: 140px;
+    font-size: xx-large;
+  }
+  .desc{
+    font-size: larger;
+    vertical-align: middle;
+  }
+  .img{
+    width: 210px;
+  }
+  .img h3{
+    text-align: center;
   }
   /*Direitos*/
   .footer{
