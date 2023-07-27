@@ -11,7 +11,6 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 /*Cabeçalho*/
-/*Cabeçalho*/
 .cabecalho{
     background-color:rgba(93, 22, 235, 1);
     height: 150px;
@@ -58,19 +57,26 @@ body {
     background-size: cover;
   }
   .legenda{
-    position: relative;
+    position: absolute;
     left: 0;
+    right: 0;
     top: 50%;
     width: 100%;
     text-align: center;
     color: black;
   }
-  .legenda span.titulo {
-    background-color: white;
-    padding: 18px;
-    font-size: 25px;
+  .legenda div{
+    background-color: #131313;
+    padding: 1px 20px 1px 20px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    color: #f7f7f7;
+    font-size: 20px;
+    opacity: 0.80;
   }
 
+  /*Boas vindas*/
   .header {
     background-color: rgb(224, 224, 224);
     height: 130px;
@@ -82,15 +88,23 @@ body {
 
   #introducao p {
     text-align: center;
+    font-size: large;
   }
 
+  /*Cursos oferecidos*/
+  .tabela{
+    width: 1000px;
+  }
+  /*Direitos*/
   .footer{
     background-color: black;
     color: white;
-    height: 50px;
+    opacity: .8;
+    height: 80px;
     display: flex;
     align-items: center;
     text-align: center;
+    font-size: larger;
   }
   #rodape{
     text-align: center;

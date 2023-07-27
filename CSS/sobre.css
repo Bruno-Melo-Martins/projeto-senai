@@ -58,30 +58,40 @@ body {
   }
 
   .legenda{
-    position: relative;
+    position: absolute;
     left: 0;
+    right: 0;
     top: 50%;
     width: 100%;
     text-align: center;
     color: black;
   }
-  .legenda span.titulo {
-    background-color: white;
-    padding: 18px;
-    font-size: 25px;
+  .legenda div{
+    background-color: #131313;
+    padding: 1px 20px 1px 20px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    color: #f7f7f7;
+    font-size: 20px;
+    opacity: 0.80;
   }
 
-  .header {
-    background-color: rgb(224, 224, 224);
-    height: 130px;
+  .header{
+    font-size: 26px;
+    text-align: justify;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
   }
- 
-  #introducao h1{
-    text-align: center;
-  }
-
-  #introducao p {
-    text-align: center;
+  .header #introducao{
+    margin-top: 10px;
+    text-align: justify;
+    width: 1160px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(226, 226, 226);
+    padding: 20px;
   }
 
   .footer{
